@@ -1,0 +1,61 @@
+[
+  {
+    "description": "  As user I want to connect on Gmail",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Login into Gmail",
+    "tags": [],
+    "uri": "/home/marcellom/Automation/poc-protractor-cucumber/login/login.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Login",
+        "tags": [],
+        "id": "login-into-gmail;login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Gmail site",
+            "result": {
+              "status": "passed",
+              "duration": 2
+            },
+            "line": 5,
+            "match": {
+              "location": "/home/marcellom/Automation/poc-protractor-cucumber/login/login.steps.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I input valid login",
+            "result": {
+              "status": "passed",
+              "duration": 12
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/marcellom/Automation/poc-protractor-cucumber/login/login.steps.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "inbox page shall be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 9336
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/marcellom/Automation/poc-protractor-cucumber/login/login.steps.js:33"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "login-into-gmail"
+  }
+]

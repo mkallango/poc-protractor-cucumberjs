@@ -1,0 +1,26 @@
+{
+  "name": "contratos-automacao",
+  "version": "1.0.0",
+  "description": "Automação e2e do projeto cadastro",
+  "scripts": {
+    "test": "./node_modules/protractor/bin/protractor protractor.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://tfs.e-unicred.com.br:22/Unicred/TI/_git/contratos-automacao"
+  },
+  "main": "protractor.conf.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.0.1",
+    "chai-as-promised": "^6.0.0",
+    "chromedriver": "^2.29.0",
+    "cucumber": "^2.2.0",
+    "cucumberjs-allure-reporter": "^1.0.3",
+    "geckodriver": "^1.6.1",
+    "gulp": "^3.9.1",
+    "protractor": "^5.1.2",
+    "protractor-cucumber-framework": "^3.1.0"
+  }
+}

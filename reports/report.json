@@ -1,0 +1,52 @@
+[
+  {
+    "description": "Login",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I navigate to Gmail site",
+        "category": "Login into Gmail: Login",
+        "durationMillis": 2,
+        "sourceLocation": {
+          "filePath": "/home/marcellom/Automation/poc-protractor-cucumber/login/login.feature",
+          "line": 5,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I input valid login",
+        "category": "Login into Gmail: Login",
+        "durationMillis": 12,
+        "sourceLocation": {
+          "filePath": "/home/marcellom/Automation/poc-protractor-cucumber/login/login.feature",
+          "line": 6,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then inbox page shall be displayed",
+        "category": "Login into Gmail: Login",
+        "durationMillis": 9336,
+        "sourceLocation": {
+          "filePath": "/home/marcellom/Automation/poc-protractor-cucumber/login/login.feature",
+          "line": 7,
+          "column": 1
+        }
+      }
+    ],
+    "duration": 9350
+  }
+]
